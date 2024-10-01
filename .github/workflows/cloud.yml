@@ -1,9 +1,6 @@
 name: k6 Cloud Load Test
 
-on:
-  push:
-    branches:
-      - '**'
+on: [push, workflow_dispatch]
 
 jobs:
   run-cloud-test:
